@@ -1,0 +1,181 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    font-size: 62.5%;
+}
+
+body{
+    overflow-x: hidden;
+
+    font-family: "Mulish", sans-serif;
+}
+
+nav{
+    background-color: #065E7C;
+
+    width: 100%;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+
+    padding: 15px 25px;
+
+    width: 100%;
+}
+
+li{
+    list-style: none;
+}
+
+.logos{
+    width: 40px;
+    height: 40px;
+}
+
+input{
+    border: 0px;
+    border-radius: 5px;
+
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 700;
+
+    background-color: #ffffff2d;
+
+    padding: 12px 12px;
+}
+
+::-webkit-input-placeholder {
+    color: #fff;
+}
+
+#content{
+    padding: 31px 26px 0px 26px;
+}
+
+#header{
+    padding-bottom: 31px;
+}
+
+#gato{
+    width: 100%;
+}
+
+h1{
+    font-size: 2.2rem;
+    font-weight: 800;
+
+    padding-bottom: 10px;
+}
+
+.buttons{
+    background-color: #065E7C;
+
+    border-radius: 50%;
+
+    height: 30px;
+    width: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#textGato{
+    font-size: 1.6rem;
+}
+
+.buttons img{
+    height: 15px;
+    width: 20px;
+}
+
+#like{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+aside{
+    padding: 31px 26px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#cont{
+    display: flex;
+    align-items: start;
+    gap: 16px;
+}
+
+#descricao{
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    font-size: 1.8rem;
+    font-weight: 900;
+}
+
+#textDesc{
+    font-size: 1.4rem;
+}
+
+footer{
+    background-color: #387E96;
+}
+
+footer p{
+    padding: 26px 10px;
+
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: #fff;
+
+    text-align: center;
+}
+
+@media (min-width: 500px){
+    input{
+        width: 360px;
+    }
+}
+
+@media (min-width: 800px){
+    input{
+        min-width: 600px;
+    }
+
+    #all{
+        display: flex;
+        align-items: start;
+
+        padding: 30px;
+    }    
+
+    aside{
+        width: 26%;
+
+        padding-top: 0px;
+    }
+
+    main{
+        width: 70%;
+    }
+}
+
+@media (min-width: 1200px){
+    input{
+        width: 1150px;
+    }
+}
